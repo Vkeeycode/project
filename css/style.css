@@ -1,225 +1,272 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-.header{
-    width: 100%;
-    height: 90px;
-    padding: 0%;
-    background-color: black;
-    margin: 0;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-  
-}
-nav{
-    width: 100%;
-    height: 50px;
-    display:flex;
-    text-align: center;
-    justify-content:center;
-    padding-left: 10px;
-    align-items: center;
-    margin-top: 50px;
-    color: antiquewhite;
- 
-
-  
-}
-  
-.inside{
- 
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-decoration: none;
-    white-space: nowrap;
-    margin: 20px;
-    margin-left: 100px;
-    margin-bottom: 60px;
-    word-spacing: 5px;
-}
-.inside a{
-    margin: 5px;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.calender{
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    justify-content:space-around;
-    padding-left: 350px;
-    color: antiquewhite;
-    margin-bottom:50px;
-    margin-right: 60px;
+.headerdiv {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(7, 0, 0);
 }
 
-
-
-.socialm{
-    width: 100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 150px;
-    color:antiquewhite;
-    margin-bottom: 50px;
-    
-}
-.fa-facebook {    
-    color: white;
-    display:inline;
-    text-align:center;
-    justify-content: space-around;
-    margin:10px ;
-}  
-
-.fa-twitter {  
-    color: white;color: white;
-    display:inline;
-    text-align:center;
-    justify-content: space-around;
-    margin:10px ;
+.headercontent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-size: small;
+  font-family: "Times New Roman", serif;
+  justify-content: start;
+  padding-left: 70px;
+  padding-top: 15px;
 }
 
-.fa-google {  
-    color: white;
-    color: white;
-    display:inline;
-    text-align:center;
-    justify-content: space-around;
-    margin:10px ;
+.inside {
+  display: flex;
+  margin-left: 60px;
+}
+.inside-a {
+  color: white;
+  text-decoration: none;
 }
 
-.fa-instagram {  
-    color: white;
-    color: white;
-    display:inline;
-    text-align:center;
-    justify-content: space-around;
-    margin:10px;
-} 
-
-.fa-linkedin {  
-    color: white;
-    display:inline-flex;
-    text-align-last:right;
-    justify-content: space-around;
-    margin:10px;
-}  
-.signin{
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    justify-content: center;
-    float: right: 100px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-}
-signin h4{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 5px;
+.socialm {
+  display: flex;
+  margin-left: 350px;
 }
 
-.section1{
-    width: 100%;
-    height: 250px;
-    padding: 0%;
-    background-color: antiquewhite;
-}
-.logo{
-    font-size:48px;
-    margin-left: 100px;
-    padding-top: 80px;
-}
-.logo h1{
-   
+#signin {
+  padding-left: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: right;
+  line-height: 1.5;
 }
 
-.cell{
-    width:10%;
-    height: 30px;
-    background-color:azure;
-    display:flex;
-    border-radius: 50px;
-    float:right;
-   margin-right: 150px;
-   margin-top: 200px;
-  
+.sectionA {
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  margin: 0%;
+  background-image: url("/images/photo6.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 51;
+}
+.sectionA-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 35px;
+  margin-left: 450px;
+  color: rgb(251, 79, 147);
 }
 
-.searchbutton{
-    display: flex;
-   padding: 50px;
-   float: right;
+.techquote {
+  padding-left: 20px;
+  text-align: center;
+  padding-top: 5px;
+  color: rgb(1, 128, 166);
 }
-.box{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-     max-width: var(--max-width);
-     margin: 20px;
-     padding: 50px;
-     margin-top: 120px;
-     word-spacing: 20px; 
+.barnav {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+.barnav-content {
+  color: rgb(1, 128, 166);
+  display: flex;
+  margin-left: 370px;
+  padding-top: 70px;
+  font-size: small;
+}
+.inside-aa {
+  text-decoration: none;
+  color: rgb(1, 128, 166);
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  height: 1px;
+}
+.search-bar {
+  flex: 1;
+  padding: 3px;
+  border: 2px solid rgb(1, 128, 166);
+  border-radius: 20px 0 0 20px;
+  height: 20px;
+}
+.search-icon {
+  padding: 1px;
+  background-color: rgb(1, 128, 166);
+  color: white;
+  border: 2px solid rgb(1, 128, 166);
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  height: 20px;
 }
 
-
-.menubars{
-    color: rgb(163, 26, 26);
-    margin-bottom: 50px;
-    margin-right: 20px;
-    position: relative; top: -37px;
+.sectionB {
+  width: 100%;
+  height: auto;
+  background-color: rgb(1, 128, 166);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin: 0;
+}
+.sidebar {
+  width: 5%;
+  height: 929px;
+  background-color: rgb(251, 79, 147);
+}
+#sidebar-content {
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.inside-aaa {
+  text-decoration: none;
+  color: white;
+}
+.main-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1350px;
+  height: 40px;
+}
+#button {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
- .main{
-    width: 100%;
-    height: 1000px;
-    background-color: rgb(109, 102, 102);
-   
- }
- 
-.news{
-    width: 25%;
-    height: 455px;
-    background-color:azure;
-    display: flex;
-    float: right;
-    margin-right: 80px;
-    margin-top: 150px;
-   
- }
- .bar{
-    width:7%;
-    height: 1000px;
-    background-color:black;
-    
- }
- 
- .img{
-      display: flex;
-      margin-top: 550px;
-
- }
-
-
-
-    
-   
-
-
-
-
-
-
-
-
-    
+#join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+.father {
+  display: flex;
+  width: 1200px;
+  height: 350px;
+  margin-top: 20px;
+}
+.son1 {
+  width: 800px;
+  height: 430px;
+  background-image: url("/images/pexels-christina-morillo-1181472.jpg");
+  background-size: cover;
+}
+.son1-content1 {
+  font-size: larger;
+  color: white;
+  margin-top: 100px;
+  background-color: rgb(66, 149, 175);
+  width: 220px;
+  height: 25px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.son1-content2 {
+  margin-left: 25px;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 4px 4px 7px rgb(102, 3, 3);
+  font-size: 30px;
+  width: 500px;
+  font-weight: bold;
+}
+#read-moreA {
+  margin-top: 50px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(8, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#read-moreB {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.son2 {
+  width: 410px;
+  height: 430px;
+  background-color: white;
+}
+#span-news {
+  margin-left: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  width: auto;
+  padding-top: 10px;
+}
+.more-news {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 375px;
+  background-color: rgb(225, 214, 214);
+  height: 60px;
+  padding-top: 20px;
+}
+.father2 {
+  display: flex;
+  justify-content: space-between;
+  width: 1198px;
+  height: 256px;
+}
+.son3 {
+  width: 390px;
+  height: 255px;
+  background-image: url("/images/pexels-christina-morillo-1181280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+}
+.son4 {
+  width: 390px;
+  height: 255px;
+  background-image: url("/images/photo5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  margin-left: 5px;
+}
+.son5 {
+  width: 390px;
+  height: 255px;
+  background-image: url("/images/pexels-christina-morillo-1181676.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  margin-left: 5px;
+}
